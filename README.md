@@ -2,6 +2,24 @@
 
 A professional production-level React.js application for analyzing faculty performance using machine learning insights.
 
+## Frontend-Only Demo Mode
+
+This repository is configured as a fully self-contained portfolio demo.
+
+- No backend or ML service is required.
+- All API behavior is simulated in `src/services/mockApi.js` with a 1-2 second delay.
+- Demo data is defined in `src/services/mockData.js` and persisted in browser localStorage.
+- Authentication, dashboard fetching, prediction output, and expense entries are all mocked.
+
+### Quick Start
+
+```bash
+npm install
+npm start
+```
+
+Vite will print the local URL (typically `http://localhost:5173`).
+
 ## 🚀 Tech Stack
 
 - **React.js 19** - Functional components with hooks
